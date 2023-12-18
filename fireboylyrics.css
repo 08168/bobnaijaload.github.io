@@ -1,0 +1,116 @@
+body{
+    background-color: goldenrod;
+    }
+    h1{
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 50px;
+    font-family: cursive ;
+    background-color: black;
+    width: 600px;
+    height: 100px;
+}
+  * {
+         box-sizing: border-box;         
+      }
+      html, body {
+         margin: 0;
+         padding: 0;         
+      }
+      .nav-bar a {
+         font-family: monospace;
+         text-decoration: none;
+         color: white ;
+         display: block;
+      }
+      .nav-bar > ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: black;
+      }
+      .nav-bar > ul > li > a:hover {
+         background: transparent;
+         color: white;     
+      }            
+      .nav-bar li {
+         float: left;
+         width: 20%;          
+         text-align: center;
+         border-right: 1px solid white;
+      }
+      .nav-bar li:last-child {
+         border: none;
+      } 
+       #b1{
+       border: none;
+       border-right: solid white;
+       width: 195px;
+       height: 35px;
+       background-color: black;
+       color: white;
+   }
+   p.solid{
+       border-style: none;
+       border-bottom: solid black;
+       width: 600px;
+       font-size: 30px;
+   }
+   img{
+       padding-left: 40px;
+   }
+ .height{
+     line-height: 35px;
+     font-family: sans-serif ;
+     font-size: 10px ;
+     margin-left: 30px;
+     color: white;
+ }  
+footer {
+         color: #fff;
+         background: #333;
+         position: relative; /* required to position the copyright at the bottom */
+         font-size: 80%;
+          display: flex;
+         min-height: 10vh;
+         flex-direction: column;
+         width: 700px;
+      }
+      .footer-copyright {
+         width: 100%;
+         height: 40px;
+         background: #111;
+         /* positions the copyright at the bottom of the footer */
+         padding: 10px;
+         position: absolute;
+         bottom: 0px;
+         left: 0px;
+      }
+      .footer-body {
+         margin-bottom: 40px;
+         padding: 30px;
+      }
+      .footer-body > div:first-child {
+         font-size: 150%;
+      }
+      .footer-body ul {
+         list-style-type: none;
+         margin: 0px;
+         padding: 0px;
+         text-align: center;
+      }
+      .footer-body li > a {
+         color: white;
+         text-decoration: none;
+         margin-bottom: 7px;
+      }
+.audio{
+    margin-left: 90px;    
+    width: 400px ;
+    
+}
